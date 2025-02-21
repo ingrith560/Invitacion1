@@ -1,0 +1,47 @@
+/* Estilos Generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+/* Tarjeta de Invitación */
+.invitacion {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.invitacion:hover {
+    transform: scale(1.05);
+}
+
+/* Botón de Confirmación */
+button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c0392b;
+}
+
+/* Mensaje de Confirmación */
+.oculto {
+    display: none;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2ecc71;
+}
